@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<header>
+    <title>Baic Mathematical Application</title>
+</header>
+<body>
+    
+    <form class="container" method="POST">
+       <h1 style="text-align:center">Basic Mathematical Application</h1>
+       <label for="num1">Number 1</label>
+       <br/><br/>
+       <input type="value" id="num1" name="num1">
+       <br/><br/><br/>
+       <label for="num2">Number 2</label>
+       <br/><br/>
+       <input type="value" id="num2" name="num2">
+       <br/><br/><br/>
+       <button class="addition" action="/add">Add</button>
+       <button class="subtraction" action="/sub">Subtract</button>
+       <button class="division" action="/mul">Multiply</button>
+       <div class="alert">
+        {{ result }}
+      </div>
+    </form>
+</body>
